@@ -96,7 +96,7 @@ h1 {
 
 .work-card .skills li {
   display: inline;
-  margin: 10px 10px 0 0px;
+  margin: 10px 10px 0 0;
   font-size: small;
   background-color: #ebebff;
   border-radius: 8px;
@@ -104,7 +104,7 @@ h1 {
   color: #6070ff;
   font-weight: 500;
 }
-  
+
 #social ul li,
 #socialUs ul li {
   list-style: none;
@@ -160,7 +160,7 @@ h1 {
 }
 
 #about {
-  border-radius: 0px 100px 0px 0px;
+  border-radius: 0 100px 0 0;
   background-color: white;
   padding-top: 120px;
 }

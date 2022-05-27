@@ -73,7 +73,8 @@ h1 {
     margin-bottom: 15px;
 }
 
-#connect {
+#connect,
+#connectUs {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -84,15 +85,18 @@ h1 {
     margin-top: 10px;
 }
 
-#social {
+#social,
+#socialUs {
     margin-top: 10px;
 }
 
-    #social a {
+    #social a,
+    #socialUs a {
         margin-right: 12px;
     }
 
-    #social ul li {
+    #social ul li,
+    #socialUs ul li {
         list-style: none;
         display: inline;
         margin-left: 3px;

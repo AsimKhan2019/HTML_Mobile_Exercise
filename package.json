@@ -1,0 +1,22 @@
+{
+  "name": "html_mobile_exercise",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsimKhan2019/HTML_Mobile_Exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsimKhan2019/HTML_Mobile_Exercise/issues"
+  },
+  "homepage": "https://github.com/AsimKhan2019/HTML_Mobile_Exercise#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

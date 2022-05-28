@@ -37,7 +37,7 @@ button.primary-btn:hover {
 }
 
 button.primary-btn:active {
-  background-color: #0000ff;
+  background-color: #00f;
   color: #fff;
 }
 
@@ -120,6 +120,10 @@ h1 {
   font-weight: 500;
   color: #253858;
 }
+
+.social ul li {
+  list-style: none;
+ }
 
 .work-card .skills li {
   display: inline;
@@ -227,15 +231,15 @@ h1 {
 }
 
 #about h1 {
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 #about #connectUs {
-  margin-top:0;
+  margin-top: 0;
 }
 
 #about button.primary-btn {
-  margin-top:0;
+  margin-top: 0;
 }
 
 .social {
@@ -248,10 +252,6 @@ h1 {
   column-gap: 20px;
 }
 
-.social ul li {
- list-style: none;
-}
-
 #list {
   direction: rtl;
 }
@@ -262,12 +262,6 @@ h1 {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-}
-
-.collapse li span img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 100px;
 }
 
 details {

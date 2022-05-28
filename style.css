@@ -123,7 +123,7 @@ h1 {
 
 .social ul li {
   list-style: none;
- }
+}
 
 .work-card .skills li {
   display: inline;
@@ -283,7 +283,7 @@ details summary {
   color: #000;
 }
 
-details summary:after {
+details summary::after {
   content: ">";
   color: #5e6c84;
   position: absolute;
@@ -300,6 +300,6 @@ details[open] summary {
   padding-bottom: 20px;
 }
 
-details[open] summary:after {
+details[open] summary::after {
   transform: rotate(90deg);
 }

@@ -220,8 +220,7 @@ h1 {
 }
 
 #list {
-  direction:rtl;
-  /* margin-top: 35px; */
+  direction: rtl;
 }
 
 .collapse {

@@ -134,14 +134,14 @@ h1 {
 
 .mainli {
   list-style-type: '<';
-  border-bottom: 1px solid #DFE1E6;
+  border-bottom: 1px solid #dfe1e6;
   padding: 30px;
   padding-right: 10px;
   padding-left: 10px;
 }
 
 .mainli::marker {
-  font-size:large;
+  font-size: large;
 }
 
 .mainli label {
@@ -150,15 +150,7 @@ h1 {
   color: black;
   display: block;
   text-align: end;
-  /*height: 67px;
-  margin-top: 35px;*/
 }
-/* #list li {
-  list-style-type: disclosure-open;
-  border-bottom: 1px solid #dfe1e6;
-  padding-right: 20px;
-  padding-left: 10px;
-} */
 
 #social ul li,
 #socialUs ul li {
@@ -242,13 +234,3 @@ h1 {
   max-height: 100%;
   border-radius: 100px;
 }
-
-/* li label {
-  font-size: large;
-  font-weight: 600;
-  color: #000;
-  display: block;
-  text-align: end;
-  height: 67px;
-  margin-top: 35px;
-} */

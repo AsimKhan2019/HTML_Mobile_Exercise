@@ -105,7 +105,7 @@ h1 {
   font-weight: 500;
   color: #253858;
 }
-  
+
 .work-card .skills li {
   display: inline;
   margin: 10px 10px 0 0;
@@ -121,9 +121,9 @@ h1 {
   list-style-type: disclosure-open;
   border-bottom: 1px solid #dfe1e6;
   padding-right: 20px;
- padding-left: 10px;
+  padding-left: 10px;
 }
-  
+ 
 #social ul li,
 #socialUs ul li {
   list-style: none;

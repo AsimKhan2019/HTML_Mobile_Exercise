@@ -47,6 +47,13 @@ button.primary-btn:active {
   display: grid;
 }
 
+#work1,
+#work2,
+#work3,
+#work4 {
+  display: flexbox;
+}
+
 #main {
   display: flex;
   flex-direction: column;

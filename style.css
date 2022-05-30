@@ -134,7 +134,10 @@ h1 {
 }
 
 .work-card .skills li {
-  display: inline;
+  /*display: inline;*/
+  float: left;
+  /*clear: both;*/
+  list-style: none;
   margin: 10px 10px 0 0;
   font-size: small;
   background-color: #ebebff;

@@ -455,25 +455,17 @@ details[open] summary::after {
             transform-origin: 0% 0%;
   }
   
-  /* 
-   * Change the color of the hamburger when toggled
-   */
   #menuToggle input:checked + .label div {
     background: #232323;
   }
   
-  /*
-   * Use absolute positioning to place the menu off-screen
-   */
   #menu {
     position: absolute;
     width: 300px;
     margin: -100px 0 0 -12px;
     padding: 7px;
     padding-top: 125px;
-    /*background: #ededed;*/
     list-style-type: none;
-    /* Hide the menu off-screen to the left */
     left: 250px;
     -webkit-transition: left 0.3s ease;
     -o-transition: left 0.3s ease;
@@ -485,9 +477,6 @@ details[open] summary::after {
     font-size: 22px;
   }
   
-  /*
-   * Slide the menu in from left when the input is checked
-   */
   #menuToggle input:checked ~ ul {
     left: -27px;
   }
@@ -509,6 +498,11 @@ details[open] summary::after {
     visibility: hidden;
     position: relative;
     padding-right: 36px;
+  }
+
+  .collapse li {
+    display: block;
+    height: 90px;
   }
 
   #menu li {
@@ -533,6 +527,10 @@ details[open] summary::after {
     display: flex;
     padding-top: 183px;
     padding-left: 222px;
+  }
+
+  .contact p {
+    width: 60%;
   }
 
   #hero p {
@@ -580,7 +578,7 @@ details[open] summary::after {
   }
 
   #work1 img {
-    width : 410px;
+    width: 410px;
   }
 
   #work2 img,
@@ -594,11 +592,15 @@ details[open] summary::after {
     border-radius: 0 0 0 0;
   }
 
+  .contact form div {
+    align-self: center;
+  }
+
   #about div {
     flex-direction: row;
   }
 
-  #about p{
+  #about p {
     width: 50%;
     padding-top: 15px;
   }
@@ -625,11 +627,6 @@ details[open] summary::after {
     column-gap: 15px;
   }
 
-  .collapse li {
-    display: block;
-    height: 90px;
-  }
-
   .collapse li span {
     display: block;
   }
@@ -638,17 +635,9 @@ details[open] summary::after {
     margin-top: 75px;
   }
 
-  .contact p {
-    width: 60%;
-  }
-
   .contact form {
     width: 60%;
     align-self: auto;
     margin-left: 95px;
-  }
-
-  .contact form div {
-    align-self: center;
   }
 }

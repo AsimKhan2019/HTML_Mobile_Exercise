@@ -394,11 +394,11 @@ details[open] summary::after {
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
-  
+
   #menuToggle a:hover {
     color: #4f7794;
   }
-  
+
   #menuToggle input {
     display: block;
     width: 30px;
@@ -412,7 +412,7 @@ details[open] summary::after {
     z-index: 2;
     -webkit-touch-callout: none;
   }
-  
+
   #menuToggle .label {
     position: relative;
     display: block;
@@ -440,23 +440,23 @@ details[open] summary::after {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  
+
   #menuToggle .label div:first-child {
     -webkit-transform-origin: 0% 100%;
     -ms-transform-origin: 0% 100%;
     transform-origin: 0% 100%;
   }
-  
+
   #menuToggle .label div:nth-child(2) {
     -webkit-transform-origin: 0% 0%;
     -ms-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
   }
-  
+
   #menuToggle input:checked + .label div {
     background: #232323;
   }
-  
+
   #menu {
     position: absolute;
     width: 300px;
@@ -470,12 +470,12 @@ details[open] summary::after {
     transition: left 0.3s ease;
     visibility: hidden;
   }
-  
+
   #menu li {
     padding: 10px 0;
     font-size: 22px;
   }
-  
+
   #menuToggle input:checked ~ ul {
     left: -27px;
     visibility: visible;
@@ -572,7 +572,7 @@ details[open] summary::after {
     column-gap: 74px;
   }
 
-  #work2, 
+  #work2,
   #work4 {
     column-gap: 15px;
     flex-direction: row-reverse;

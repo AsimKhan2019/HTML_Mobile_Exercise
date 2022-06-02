@@ -382,7 +382,7 @@ details[open] summary::after {
     display: flex;
     position: relative;
     top: 0;
-    left: 45px;
+    left: 25px;
     z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -480,7 +480,7 @@ details[open] summary::after {
   }
 
   #menuToggle input:checked ~ ul {
-    left: -27px;
+    left: -54px;
     visibility: visible;
   }
 }

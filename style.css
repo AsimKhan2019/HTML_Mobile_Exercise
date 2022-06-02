@@ -422,10 +422,7 @@ details[open] summary::after {
   #menuToggle .label span {
     display: none;
   }
-  
-  /*
-   * Hamburger
-   */
+
   #menuToggle .label div {
     display: block;
     width: 30px;
@@ -492,7 +489,7 @@ details[open] summary::after {
     width: 100%;
   }
 
-  #menuToggle label,
+  #menuToggle .label,
   #menuToggle input {
     display: none;
     visibility: hidden;

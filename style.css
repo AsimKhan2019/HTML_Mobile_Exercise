@@ -65,7 +65,6 @@ button.primary-btn:active {
   justify-content: space-between;
   padding: 30px;
   background: #fff;
-  overflow: hidden;
   position: sticky;
   top: 0;
 }
@@ -482,6 +481,7 @@ details[open] summary::after {
   #menuToggle input:checked ~ ul {
     left: -54px;
     visibility: visible;
+    z-index: 1;
   }
 }
 

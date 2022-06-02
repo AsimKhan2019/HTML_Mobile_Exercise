@@ -374,8 +374,6 @@ details[open] summary::after {
   color: #fff;
 }
 
-
-
 @media screen and (max-width: 600px) {
   #menuToggle {
     display: flex;
@@ -401,8 +399,6 @@ details[open] summary::after {
     color: #4f7794;
   }
   
-  
-  /* The hamburger button hidden inside an input element */
   #menuToggle input {
     display: block;
     width: 30px;
@@ -412,8 +408,8 @@ details[open] summary::after {
     left: -5px;  
     padding: 0;
     cursor: pointer;  
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */  
+    opacity: 0;
+    z-index: 2;
     -webkit-touch-callout: none;
   }
   

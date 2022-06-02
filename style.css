@@ -65,6 +65,9 @@ button.primary-btn:active {
   justify-content: space-between;
   padding: 30px;
   background: #fff;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
 }
 
 #logo {

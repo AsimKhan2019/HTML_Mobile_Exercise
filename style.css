@@ -459,8 +459,6 @@ details[open] summary::after {
     background: #232323;
   }
 
-  
-
   #menu {
     position: absolute;
     width: 300px;
@@ -506,20 +504,19 @@ details[open] summary::after {
   }
 
   #menu li a {
-    color: #FFF;
+    color: #808080;
     text-decoration: none;
-    font: 20px Raleway;
-    margin: 0px 10px;
+    margin: 0 10px;
     padding: 10px 10px;
     position: relative;
     z-index: 0;
     cursor: pointer;
   }
 
-  #menu li a:before,
-  #menu li a:after {
+  #menu li a::before,
+  #menu li a::after {
     position: absolute;
-    left: 0px;
+    left: 0;
     width: 100%;
     height: 2px;
     background: gray;
@@ -528,21 +525,21 @@ details[open] summary::after {
     transition: all 0.3s;
   }
 
-  #menu li a:before {
-    top: 0px;
+  #menu li a::before {
+    top: 0;
     transform: translateY(10px);
   }
 
-  #menu li a:after {
-    bottom: 0px;
+  #menu li a::after {
+    bottom: 0;
     transform: translateY(-10px);
   }
 
-  #menu li a:hover:before, 
-  #menu li a:hover:after {
+  #menu li a:hover::before,
+  #menu li a:hover::after {
     opacity: 1;
-    transform: translateY(0px);
-}
+    transform: translateY(0);
+  }
 
   .collapse li {
     display: block;
@@ -556,16 +553,6 @@ details[open] summary::after {
     padding-left: 35px;
     align-self: center;
   }
-
-  #menu li a {
-    text-decoration: none;
-    color: #808080;
-  }
-
-  /*#menu li a:hover {
-    text-decoration: none;
-    color: #6070ff;
-  }*/
 
   #hero {
     background-repeat: no-repeat;

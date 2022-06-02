@@ -417,20 +417,20 @@ details[open] summary::after {
     -webkit-touch-callout: none;
   }
   
-  #menuToggle label {
+  #menuToggle .label {
     position: relative;
     display: block;
     width: 30px;
     height: 30px;
   }
-  #menuToggle label span {
+  #menuToggle .label span {
     display: none;
   }
   
   /*
    * Hamburger
    */
-  #menuToggle label div {
+  #menuToggle .label div {
     display: block;
     width: 30px;
     height: 2px;
@@ -447,13 +447,13 @@ details[open] summary::after {
     transition: all 0.3s ease;
   }
   
-  #menuToggle label div:first-child {
+  #menuToggle .label div:first-child {
     -webkit-transform-origin: 0% 100%;
         -ms-transform-origin: 0% 100%;
             transform-origin: 0% 100%;
   }
   
-  #menuToggle label div:nth-child(2) {
+  #menuToggle .label div:nth-child(2) {
       -webkit-transform-origin: 0% 0%;
         -ms-transform-origin: 0% 0%;
             transform-origin: 0% 0%;
@@ -462,7 +462,7 @@ details[open] summary::after {
   /* 
    * Change the color of the hamburger when toggled
    */
-  #menuToggle input:checked + label div {
+  #menuToggle input:checked + .label div {
     background: #232323;
   }
   
@@ -641,7 +641,7 @@ details[open] summary::after {
   .contact {
     margin-top: 75px;
   }
-  
+
   .contact p {
     width: 60%;
   }

@@ -239,7 +239,7 @@ h1 {
   padding-bottom: 100px;
 }
 
-.contact h1 {
+#contact h1 {
   color: #fff;
   font-size: 36px;
 }
@@ -318,7 +318,7 @@ details[open] summary::after {
   transform: rotate(90deg);
 }
 
-.contact {
+#contact {
   background-color: #6070ff;
   display: flex;
   align-items: center;
@@ -333,11 +333,11 @@ details[open] summary::after {
   background-size: 435px;
 }
 
-.contact p {
+#contact p {
   font-size: 20px;
 }
 
-.contact form {
+#contact form {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -345,14 +345,14 @@ details[open] summary::after {
   align-self: stretch;
 }
 
-.contact form input {
+#contact form input {
   height: 48px;
   border: 1px solid #fff;
   border-radius: 6px;
   padding: 10px;
 }
 
-.contact form textarea {
+#contact form textarea {
   height: 110px;
   border: 1px solid #fff;
   border-radius: 6px;
@@ -360,16 +360,289 @@ details[open] summary::after {
   text-align: left;
 }
 
-.contact form .primary-btn {
+#contact form .primary-btn {
   margin-top: 0;
 }
 
-.contact form .primary-btn:hover {
+#contact form .primary-btn:hover {
   background-color: #fff;
   color: #6070ff;
 }
 
-.contact form .primary-btn:active {
+#contact form .primary-btn:active {
   background-color: #6070ff;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  #menuToggle {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 45px;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle a {
+    text-decoration: none;
+    color: #808080;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+
+  #menuToggle a:hover {
+    color: #4f7794;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    -webkit-touch-callout: none;
+  }
+
+  #menuToggle .label {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  #menuToggle .label span {
+    display: none;
+  }
+
+  #menuToggle .label div {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 6px;
+    position: relative;
+    background: #6070ff;
+    border-radius: 3px;
+    z-index: 1;
+    -webkit-transform-origin: 4px 0;
+    -ms-transform-origin: 4px 0;
+    transform-origin: 4px 0;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  #menuToggle .label div:first-child {
+    -webkit-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle .label div:nth-child(2) {
+    -webkit-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle input:checked + .label div {
+    background: #232323;
+  }
+
+  #menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -12px;
+    padding: 7px;
+    padding-top: 125px;
+    list-style-type: none;
+    left: 250px;
+    -webkit-transition: left 0.3s ease;
+    -o-transition: left 0.3s ease;
+    transition: left 0.3s ease;
+    visibility: hidden;
+  }
+
+  #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  #menuToggle input:checked ~ ul {
+    left: -27px;
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  #main {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  #menuToggle .label,
+  #menuToggle input {
+    display: none;
+    visibility: hidden;
+    position: relative;
+    padding-right: 36px;
+  }
+
+  .collapse li {
+    display: block;
+    height: 90px;
+  }
+
+  #menu li {
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 35px;
+    align-self: center;
+  }
+
+  #menu li a {
+    text-decoration: none;
+    color: #808080;
+  }
+
+  #menu li a:hover {
+    text-decoration: none;
+    color: #6070ff;
+  }
+
+  #hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #hero h1 {
+    display: flex;
+    padding-top: 183px;
+    padding-left: 222px;
+  }
+
+  #contact p {
+    width: 60%;
+  }
+
+  #hero p {
+    display: flex;
+    font-size: larger;
+    width: 82%;
+    padding-left: 225px;
+  }
+
+  #social {
+    display: flex;
+    flex-direction: row;
+    padding-left: 218px;
+  }
+
+  #work {
+    display: flex;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #work1,
+  #work2,
+  #work3,
+  #work4 {
+    flex-direction: row;
+  }
+
+  #work1 {
+    column-gap: 74px;
+  }
+
+  #work2,
+  #work4 {
+    column-gap: 15px;
+    flex-direction: row-reverse;
+  }
+
+  #work3 {
+    column-gap: 54px;
+  }
+
+  #work1 img {
+    width: 410px;
+  }
+
+  #work2 img,
+  #work3 img,
+  #work4 img {
+    width: 614px;
+  }
+
+  #about {
+    width: 100%;
+    border-radius: 0 0 0 0;
+  }
+
+  .contact form div {
+    align-self: center;
+  }
+
+  #about div {
+    flex-direction: row;
+  }
+
+  #about p {
+    width: 50%;
+    padding-top: 15px;
+  }
+
+  #socialUs {
+    padding-top: 9px;
+    padding-bottom: 5px;
+  }
+
+  .details {
+    display: grid;
+    width: 40%;
+    justify-content: end;
+    margin-left: 582px;
+    margin-top: -362px;
+  }
+
+  .details summary {
+    padding-right: 200px;
+  }
+
+  .collapse {
+    flex-direction: row;
+    column-gap: 15px;
+  }
+
+  .collapse li span {
+    display: block;
+  }
+
+  #contact {
+    margin-top: 75px;
+  }
+
+  #contact form {
+    width: 60%;
+    align-self: auto;
+    margin-left: 95px;
+  }
 }

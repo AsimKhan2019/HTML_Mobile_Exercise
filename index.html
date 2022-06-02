@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -12,9 +13,22 @@
         <header id="topbar">
             <!--<div id="topbar">-->
             <div id="logo"><span>My Logo</span></div>
-            <div id="hamburger">
-                <a href="#"><img src="img/Union.svg" alt="this is menu" /></a>
-            </div>
+            <nav role="navigation">
+                <div id="menuToggle">
+                  <input name="toggle" type="checkbox" />
+                  <label for="toggle">
+                    <span>menu</span>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </label> <!-- toggle -->
+                  <ul id="menu">
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div> <!-- menu toogle-->
+              </nav> <!-- navigation -->
             <!--</div> --> <!-- topbar -->
         </header>
         <section id="hero">
@@ -143,12 +157,13 @@
         </section> <!-- work -->
 
         <section id="about">
-            <h1>About<br />Myself</h1>
-            <p>
-                Hello I’m a software developer! I can help you build a product , feature
-                or website Look through some of my work and experience! If you like what
-                you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
+            <div>
+                <h1>About<br />Myself</h1>
+                <p>
+                    Hello I’m a software developer! I can help you build a product , feature
+                    or website Look through some of my work and experience! If you like what
+                    you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
             <p>
                 <a href="#" id="connectUs">LET'S CONNECT</a>
             </p>
@@ -165,6 +180,7 @@
                 <button class="primary-btn" type="submit">Get My resume</button>
                 <div></div>
             </div>
+        </div> <!--div-->
             <div class="details">
                 <details open>
                     <summary>Languages</summary>

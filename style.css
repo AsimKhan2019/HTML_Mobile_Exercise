@@ -9,7 +9,8 @@
 
 body {
   margin: 0;
-  width: 435px;
+  /*width: 435px;*/
+  width:100%;
   background: #fff;
   color: #344563;
 }
@@ -80,7 +81,7 @@ button.primary-btn:active {
   padding-bottom: 100px;
   background-image: url('img/header-shapes mobile.svg');
   background-repeat: repeat-y;
-  background-size: 435px;
+  background-size: 100%;
   border-radius: 0 0 0 100px;
   background-color: #fff;
 }

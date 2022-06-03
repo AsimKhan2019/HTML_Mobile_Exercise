@@ -376,7 +376,7 @@ details[open] summary::after {
   color: #fff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #menuToggle {
     display: flex;
     position: relative;
@@ -485,7 +485,7 @@ details[open] summary::after {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   body {
     width: 100%;
   }
@@ -493,6 +493,14 @@ details[open] summary::after {
   #main {
     justify-content: space-around;
     width: 100%;
+  }
+
+  #topbar {
+    padding-left: 95px;
+  }
+
+  #topbar nav {
+    padding-right: 54px;
   }
 
   #menuToggle .label,
@@ -590,6 +598,7 @@ details[open] summary::after {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-left: 188px;
   }
 
   #work1,
@@ -626,9 +635,10 @@ details[open] summary::after {
   #about {
     width: 100%;
     border-radius: 0 0 0 0;
+    padding-left: 274px;
   }
 
-  .contact form div {
+  #contact form div {
     align-self: center;
   }
 
@@ -639,6 +649,10 @@ details[open] summary::after {
   #about p {
     width: 50%;
     padding-top: 15px;
+  }
+
+  #contact p {
+    width: 34%;
   }
 
   #socialUs {
@@ -669,11 +683,19 @@ details[open] summary::after {
 
   #contact {
     margin-top: 75px;
+    background-image: url('img/contact_form_background_shapes.svg');
+    background-repeat: repeat-y;
+    background-size: 100%;
   }
 
   #contact form {
-    width: 60%;
+    width: 31%;
     align-self: auto;
     margin-left: 95px;
+    row-gap: 18px;
+  }
+
+  #contact form div .primary-btn {
+    margin-left: -8px;
   }
 }

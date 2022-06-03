@@ -348,7 +348,7 @@ details[open] summary::after {
 }
 
 #contact form input {
-  height: 48px;
+  height: 79px;
   border: 1px solid #fff;
   border-radius: 6px;
   padding: 10px;
@@ -573,10 +573,6 @@ details[open] summary::after {
     padding-left: 222px;
   }
 
-  #contact p {
-    width: 60%;
-  }
-
   #hero p {
     display: flex;
     font-size: larger;
@@ -638,12 +634,12 @@ details[open] summary::after {
     padding-left: 274px;
   }
 
-  #contact form div {
-    align-self: center;
-  }
-
   #about div {
     flex-direction: row;
+  }
+
+  #contact form div {
+    align-self: center;
   }
 
   #about p {
@@ -691,7 +687,7 @@ details[open] summary::after {
   #contact form {
     width: 31%;
     align-self: auto;
-    margin-left: 95px;
+    margin-left: -9px;
     row-gap: 18px;
   }
 

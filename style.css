@@ -499,18 +499,18 @@ details[open] summary::after {
     animation: rotation 2s linear;
   }
 
-  @keyframes rotation {
-      from {
-	      -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-	    }
-	    to {
-	      -webkit-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-	    }
-  }
+@keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}
 
   #main {
     justify-content: space-around;

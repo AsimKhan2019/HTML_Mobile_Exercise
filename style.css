@@ -499,7 +499,7 @@ details[open] summary::after {
     animation: rotation 2s linear;
   }
 
-@keyframes rotation {
+  @keyframes rotation {
     from {
       -webkit-transform: rotate(0deg);
       -o-transform: rotate(0deg);
@@ -510,7 +510,7 @@ details[open] summary::after {
       -o-transform: rotate(360deg);
       transform: rotate(360deg);
     }
-}
+  }
 
   #main {
     justify-content: space-around;

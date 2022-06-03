@@ -501,10 +501,10 @@ details[open] summary::after {
 
   @keyframes rotation {
     from {
-		  -webkit-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
 	  }
 	  to {
-	    -webkit-transform: rotate(360deg);
+	  -webkit-transform: rotate(360deg);
 	  }
   }
 

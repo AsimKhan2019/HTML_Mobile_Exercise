@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  width: 435px;
+  width: 100%;
   background: #fff;
   color: #344563;
 }
@@ -65,6 +65,8 @@ button.primary-btn:active {
   justify-content: space-between;
   padding: 30px;
   background: #fff;
+  position: sticky;
+  top: 0;
 }
 
 #logo {
@@ -78,7 +80,7 @@ button.primary-btn:active {
   padding-bottom: 100px;
   background-image: url('img/header-shapes mobile.svg');
   background-repeat: repeat-y;
-  background-size: 435px;
+  background-size: 100%;
   border-radius: 0 0 0 100px;
   background-color: #fff;
 }
@@ -326,11 +328,11 @@ details[open] summary::after {
   flex-wrap: nowrap;
   row-gap: 15px;
   width: 100%;
-  border-radius: 100px 0 0 0;
+  border-radius: 297px 0 0 0;
   color: #fff;
   background-image: url('img/contact form shapes-mobile@2x.svg');
   background-repeat: repeat-y;
-  background-size: 435px;
+  background-size: 100%;
 }
 
 #contact p {
@@ -346,7 +348,7 @@ details[open] summary::after {
 }
 
 #contact form input {
-  height: 48px;
+  height: 79px;
   border: 1px solid #fff;
   border-radius: 6px;
   padding: 10px;
@@ -374,12 +376,12 @@ details[open] summary::after {
   color: #fff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #menuToggle {
     display: flex;
     position: relative;
     top: 0;
-    left: 45px;
+    left: 25px;
     z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -477,12 +479,13 @@ details[open] summary::after {
   }
 
   #menuToggle input:checked ~ ul {
-    left: -27px;
+    left: -54px;
     visibility: visible;
+    z-index: 1;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   body {
     width: 100%;
   }
@@ -492,12 +495,58 @@ details[open] summary::after {
     width: 100%;
   }
 
+  #topbar {
+    padding-left: 95px;
+  }
+
+  #topbar nav {
+    padding-right: 54px;
+  }
+
   #menuToggle .label,
   #menuToggle input {
     display: none;
     visibility: hidden;
     position: relative;
     padding-right: 36px;
+  }
+
+  #menu li a {
+    color: #808080;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+  }
+
+  #menu li a::before,
+  #menu li a::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: gray;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  #menu li a::before {
+    top: 0;
+    transform: translateY(10px);
+  }
+
+  #menu li a::after {
+    bottom: 0;
+    transform: translateY(-10px);
+  }
+
+  #menu li a:hover::before,
+  #menu li a:hover::after {
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .collapse li {
@@ -513,16 +562,6 @@ details[open] summary::after {
     align-self: center;
   }
 
-  #menu li a {
-    text-decoration: none;
-    color: #808080;
-  }
-
-  #menu li a:hover {
-    text-decoration: none;
-    color: #6070ff;
-  }
-
   #hero {
     background-repeat: no-repeat;
     background-size: cover;
@@ -532,10 +571,6 @@ details[open] summary::after {
     display: flex;
     padding-top: 183px;
     padding-left: 222px;
-  }
-
-  #contact p {
-    width: 60%;
   }
 
   #hero p {
@@ -559,6 +594,7 @@ details[open] summary::after {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-left: 188px;
   }
 
   #work1,
@@ -595,19 +631,24 @@ details[open] summary::after {
   #about {
     width: 100%;
     border-radius: 0 0 0 0;
-  }
-
-  .contact form div {
-    align-self: center;
+    padding-left: 274px;
   }
 
   #about div {
     flex-direction: row;
   }
 
+  #contact form div {
+    align-self: center;
+  }
+
   #about p {
     width: 50%;
     padding-top: 15px;
+  }
+
+  #contact p {
+    width: 34%;
   }
 
   #socialUs {
@@ -638,11 +679,19 @@ details[open] summary::after {
 
   #contact {
     margin-top: 75px;
+    background-image: url('img/contact_form_background_shapes.svg');
+    background-repeat: repeat-y;
+    background-size: 100%;
   }
 
   #contact form {
-    width: 60%;
+    width: 31%;
     align-self: auto;
-    margin-left: 95px;
+    margin-left: -9px;
+    row-gap: 18px;
+  }
+
+  #contact form div .primary-btn {
+    margin-left: -8px;
   }
 }

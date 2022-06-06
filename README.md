@@ -12,7 +12,7 @@
 - Visual Studio Code and GitHub
 
 ## Live Demo (if available)
-https://htmlpreview.github.io/?https://github.com/AsimKhan2019/HTML_Mobile_Exercise/blob/main/index.html
+[https://asimkhan2019.github.io/HTML_Mobile_Exercise/](https://asimkhan2019.github.io/HTML_Mobile_Exercise/)
 
 ## Getting Started
 

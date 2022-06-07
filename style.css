@@ -245,6 +245,16 @@ h1 {
   color: #7a869a;
 }
 
+#work h6 {
+  display: none;
+  visibility: hidden;
+}
+
+#container h6 {
+  display: none;
+  visibility: hidden;
+}
+
 #about {
   display: flex;
   flex-direction: column;

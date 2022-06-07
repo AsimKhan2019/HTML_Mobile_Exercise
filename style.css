@@ -76,9 +76,51 @@ button.primary-btn:active {
   font-size: 20px;
 }
 
+.mainli label {
+  font-size: large;
+  font-weight: 600;
+  color: #000;
+  display: block;
+  text-align: end;
+}
+
 #menuToggle label {
   display: none;
   visibility: hidden;
+}
+
+.canopy li {
+  margin-right: 15px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.collapse li {
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  column-gap: 10px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  padding: 11px;
+  font-weight: 500;
+  color: #253858;
+}
+
+.social ul li {
+  list-style: none;
+}
+
+.work-card .skills li {
+  display: inline;
+  margin: 10px 10px 0 0;
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 5px 15px;
+  color: #6070ff;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 #menu li {
@@ -108,7 +150,7 @@ h1 {
   font-weight: 900;
   font-size: 20px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #6070ff;
   text-decoration: none;
   display: block;
   margin-top: 10px;
@@ -124,41 +166,6 @@ h1 {
   margin-right: 12px;
 }
 
-.canopy li {
-  margin-right: 15px;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: 800;
-}
-
-.collapse li {
-  background-color: #f7f7f9;
-  border-radius: 8px;
-  column-gap: 10px;
-  height: 67px;
-  display: flex;
-  align-items: center;
-  padding: 11px;
-  font-weight: 500;
-  color: #253858;
-}
-
-.social ul li {
-  list-style: none;
-}
-
-.work-card .skills li {
-  display: inline;
-  margin: 10px 10px 0 0;
-  font-size: small;
-  background-color: #ebebff;
-  border-radius: 8px;
-  padding: 5px 15px;
-  color: #6070ff;
-  font-size: 20px;
-  font-weight: 800;
-}
-
 .mainli {
   list-style-type: '<';
   border-bottom: 1px solid #dfe1e6;
@@ -169,14 +176,6 @@ h1 {
 
 .mainli::marker {
   font-size: large;
-}
-
-.mainli label {
-  font-size: large;
-  font-weight: 600;
-  color: #000;
-  display: block;
-  text-align: end;
 }
 
 #social ul li,
@@ -224,7 +223,7 @@ h1 {
 .canopy li.item {
   display: list-item;
   list-style-image: url('img/Counter.svg');
-  color: #7a869a;
+  color: #808080;
   font-weight: 500;
 }
 
@@ -360,6 +359,7 @@ details[open] summary::after {
 
 #contact p {
   font-size: 20px;
+  color:#fff;
 }
 
 #contact form {

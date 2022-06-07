@@ -69,6 +69,11 @@ button.primary-btn:active {
   top: 0;
 }
 
+#menuToggle label {
+  display: none;
+  visibility: hidden;
+}
+
 #logo {
   color: #6070ff;
   font-style: normal;
@@ -345,6 +350,11 @@ details[open] summary::after {
   flex-wrap: nowrap;
   row-gap: 10px;
   align-self: stretch;
+}
+
+#contact form label {
+  display: none;
+  visibility: hidden;
 }
 
 #contact form input {

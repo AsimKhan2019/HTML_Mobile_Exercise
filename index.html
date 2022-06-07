@@ -16,6 +16,7 @@
             <nav>
                 <div id="menuToggle">
                   <input class="toggle" name="toggle" type="checkbox" title="Toggle Controls" />
+                  <label>Toggle Controls</label>
                   <div id="toggle" class="label">
                     <!--<span>menu</span>-->
                     <div></div>
@@ -218,9 +219,14 @@
                 I’d love to help with it 
             </p>
             <form method="post" action="https://formspree.io/f/xyyooogl">
-                <input type="text" name="name" placeholder="your name comes here" required maxlength="30" title="Name Placeholder" />
-                <input type="email" name="email" placeholder="your email comes here" required title="Name Placeholder" />
-                <textarea name="message" placeholder="Write your message here" required maxlength="500" title="Name Placeholder"></textarea>
+                <label>Name: </label>
+                <input type="text" name="name" placeholder="your name comes here" required maxlength="30" />
+
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="your email comes here" required />
+                
+                <label>Message:</label>
+                <textarea name="message" placeholder="Write your message here" required maxlength="500"></textarea>
                 <div>
                     <button class="primary-btn" type="submit">Get In Touch</button>
                     <div></div>

@@ -241,7 +241,7 @@ h1 {
 
 .canopy li.item span {
   margin-left: 5px;
-  color: #7a869a;
+  color: #808080;
 }
 
 #work h6 {
@@ -359,7 +359,8 @@ details[open] summary::after {
 
 #contact p {
   font-size: 20px;
-  color:#fff;
+  font-weight: 500;
+  color: #fff;
 }
 
 #contact form {

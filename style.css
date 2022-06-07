@@ -92,7 +92,7 @@ button.primary-btn:active {
 .canopy li {
   margin-right: 15px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 800;
 }
 
@@ -224,7 +224,8 @@ h1 {
   display: list-item;
   list-style-image: url('img/Counter.svg');
   color: #808080;
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 14px;
 }
 
 .collapse li span {
@@ -241,7 +242,7 @@ h1 {
 
 .canopy li.item span {
   margin-left: 5px;
-  color: #808080;
+  color: #817171;
 }
 
 #work h6 {
@@ -343,7 +344,7 @@ details[open] summary::after {
 }
 
 #contact {
-  background-color: #6070ff;
+  background-color: #5464fb;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -358,8 +359,8 @@ details[open] summary::after {
 }
 
 #contact p {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 800;
   color: #fff;
 }
 

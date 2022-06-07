@@ -69,16 +69,21 @@ button.primary-btn:active {
   top: 0;
 }
 
+#logo {
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 20px;
+}
+
 #menuToggle label {
   display: none;
   visibility: hidden;
 }
 
-#logo {
-  color: #6070ff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
+#menu li {
+  font-size: 20px;
+  font-weight: 900;
 }
 
 #hero {
@@ -100,8 +105,8 @@ h1 {
 #connect,
 #connectUs {
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 900;
+  font-size: 20px;
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
@@ -122,6 +127,8 @@ h1 {
 .canopy li {
   margin-right: 15px;
   display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .collapse li {
@@ -148,7 +155,8 @@ h1 {
   border-radius: 8px;
   padding: 5px 15px;
   color: #6070ff;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .mainli {

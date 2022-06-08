@@ -14,6 +14,11 @@ body {
   color: #344563;
 }
 
+h1 {
+  display: none;
+  visibility: hidden;
+}
+
 section {
   padding: 30px;
   padding-top: 120px;
@@ -67,6 +72,11 @@ button.primary-btn:active {
   background: #fff;
   position: sticky;
   top: 0;
+}
+
+#topbar nav h1 {
+  display: none;
+  visibility: hidden;
 }
 
 #logo {

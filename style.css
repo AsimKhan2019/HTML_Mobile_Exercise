@@ -14,6 +14,12 @@ body {
   color: #344563;
 }
 
+#topHeading,
+#seconHeading {
+  display: none;
+  visibility: hidden;
+}
+
 h3 {
   display: none;
   visibility: hidden;

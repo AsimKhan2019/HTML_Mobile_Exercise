@@ -137,11 +137,6 @@ button.primary-btn:active {
   background-color: #fff;
 }
 
-#hero h2 {
-  display: none;
-  visibility: hidden;
-}
-
 h1 {
   line-height: 55px;
   font-size: 35pt;
@@ -206,6 +201,11 @@ h1 {
   color: #172b4d;
   padding-top: 10px;
   padding-bottom: 15px;
+}
+
+#hero h2 {
+  display: none;
+  visibility: hidden;
 }
 
 .work-card h3 {

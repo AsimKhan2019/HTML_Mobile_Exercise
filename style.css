@@ -137,6 +137,11 @@ button.primary-btn:active {
   background-color: #fff;
 }
 
+#hero h2 {
+  display: none;
+  visibility: hidden;
+}
+
 h1 {
   line-height: 55px;
   font-size: 35pt;

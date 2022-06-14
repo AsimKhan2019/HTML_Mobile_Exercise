@@ -619,6 +619,12 @@ details[open] summary::after {
     padding-left: 222px;
   }
 
+  #hero h2 {
+    display: flex;
+    padding-top: 183px;
+    padding-left: 222px;
+  }
+
   #hero p {
     display: flex;
     font-size: larger;

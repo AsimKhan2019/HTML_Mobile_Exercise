@@ -20,6 +20,11 @@ body {
   visibility: hidden;
 }
 
+h3 {
+  display: none;
+  visibility: hidden;
+}
+
 section {
   padding: 30px;
   padding-top: 120px;

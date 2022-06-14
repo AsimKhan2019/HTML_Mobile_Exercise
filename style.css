@@ -536,6 +536,29 @@ details[open] summary::after {
     width: 100%;
   }
 
+  #work1 img,
+  #work2 img,
+  #work3 img,
+  #work4 img {
+    -webkit-animation: rotation 2s linear;
+    -o-animation: rotation 2s linear;
+    animation: rotation 2s linear;
+  }
+
+  @keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
   #main {
     justify-content: space-around;
     width: 100%;

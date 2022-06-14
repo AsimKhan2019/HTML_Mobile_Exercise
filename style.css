@@ -15,7 +15,7 @@ body {
 }
 
 #topHeading,
-#seconHeading {
+#secondHeading {
   display: none;
   visibility: hidden;
 }

@@ -15,10 +15,10 @@ body {
 }
 
 #topbar.sticking {
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
   box-shadow: 0 0 35px 1px #00000080;
-  border-bottom: 1px solid rgba(255, 255, 255, .15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .headcontainer {
@@ -37,13 +37,13 @@ nav {
   display: flex;
 }
 
-nav ul{
+nav ul {
   display: flex;
   list-style: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-nav ul li{
+nav ul li {
   margin-left: 34px;
 }
 
@@ -83,7 +83,7 @@ nav .hamburger {
   background-color: #6070ff;
   position: absolute;
   transform-origin: left center;
-  transition:all .3s;
+  transition: all 0.3s;
   border-radius: 1px;
 }
 
@@ -95,6 +95,7 @@ nav .hamburger {
   top: 50%;
   transform-origin: center;
 }
+
 .hamburger .bottom {
   top: 100%;
 }

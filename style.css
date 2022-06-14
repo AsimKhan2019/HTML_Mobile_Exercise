@@ -42,6 +42,12 @@ body {
   flex-direction: column;
 }
 
+.collapse li span img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 100px;
+}
+
 #mobNav img {
   width: 25px;
   align-self: end;
@@ -49,20 +55,92 @@ body {
   margin-top: 10px;
 }
 
-#mobNav ul{
+nav ul {
+  display: flex;
+  list-style: none;
+  transition: all 0.3s;
+}
+
+.social ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+#mobNav ul {
   padding: 20px;
 }
+
+nav ul li {
+  margin-left: 34px;
+}
+
+.canopy li {
+  margin-right: 15px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.collapse li {
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  column-gap: 10px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  padding: 11px;
+  font-weight: 500;
+  color: #253858;
+}
+
+.social ul li {
+  list-style: none;
+}
+
+.work-card .skills li {
+  display: inline;
+  margin: 10px 10px 0 0;
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 5px 15px;
+  color: #6070ff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#menu li {
+  font-size: 20px;
+  font-weight: 900;
+}
+
 #mobNav ul li {
   display: flex;
   list-style: none;
   padding-top: 20px;
 }
 
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #6070ff;
+}
+
+#social a,
+#socialUs a {
+  margin-right: 12px;
+}
+
 #mobNav ul li a {
   text-decoration: none;
   font-weight: bold;
-    color: white;
-    font-size: larger;
+  color: white;
+  font-size: larger;
 }
 
 #mobNav.open {
@@ -77,27 +155,6 @@ body {
 
 nav {
   display: flex;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  transition: all 0.3s;
-}
-
-nav ul li {
-  margin-left: 34px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-nav a:hover {
-  color: #6070ff;
 }
 
 nav .hamburger {
@@ -225,45 +282,6 @@ button.primary-btn:active {
   text-align: end;
 }
 
-.canopy li {
-  margin-right: 15px;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.collapse li {
-  background-color: #f7f7f9;
-  border-radius: 8px;
-  column-gap: 10px;
-  height: 67px;
-  display: flex;
-  align-items: center;
-  padding: 11px;
-  font-weight: 500;
-  color: #253858;
-}
-
-.social ul li {
-  list-style: none;
-}
-
-.work-card .skills li {
-  display: inline;
-  margin: 10px 10px 0 0;
-  background-color: #ebebff;
-  border-radius: 8px;
-  padding: 5px 15px;
-  color: #6070ff;
-  font-size: 20px;
-  font-weight: 800;
-}
-
-#menu li {
-  font-size: 20px;
-  font-weight: 900;
-}
-
 #hero {
   padding-bottom: 100px;
   background-image: url('img/header-shapes mobile.svg');
@@ -295,11 +313,6 @@ h1 {
 #social,
 #socialUs {
   margin-top: 10px;
-}
-
-#social a,
-#socialUs a {
-  margin-right: 12px;
 }
 
 .mainli {
@@ -370,12 +383,6 @@ h1 {
   height: 50px;
 }
 
-.collapse li span img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 100px;
-}
-
 .canopy li.item span {
   margin-left: 5px;
   color: #817171;
@@ -419,12 +426,6 @@ h1 {
 
 .social {
   padding: 10px;
-}
-
-.social ul {
-  display: flex;
-  flex-direction: row;
-  column-gap: 20px;
 }
 
 #list {

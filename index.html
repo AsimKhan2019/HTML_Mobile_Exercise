@@ -14,30 +14,26 @@
     <h3>Welcome to my portfolio</h3>
     <div id="main">
         <header id="topbar">
-            <!--<div id="topbar">-->
+            <div class="headcontainer">
             <div id="logo"><span>My Logo</span></div>
             <nav>
-                <h3>This is the navigation</h3>
-                <div id="menuToggle">
-                  <label for="toggles">Toggle Controls</label>
-                  <input class="toggle" name="toggle" type="checkbox" id="toggles" />
-                  <div id="toggle" class="label">
-                    <!--<span>menu</span>-->
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                  </div> <!-- toggle -->
                   <ul id="menu">
                     <li><a href="#hero">Portfolio</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                   </ul>
+                  <div class="hamburger">
+                    <button id="menubar">
+                        <span class="top"></span>
+                        <span class="mid"></span>
+                        <span class="bottom"></span>
+                    </button>
+                </div>
                 </div> <!-- menu toogle-->
               </nav> <!-- navigation -->
-            <!--</div> --> <!-- topbar -->
+        </div> <!--head container-->
         </header>
         <section id="hero">
-            <!--<div id="hero">-->
             <h2>I'm Asim <br />Glad to see you!</h2>
             <h2>Software Engineer</h2>
             <p>
@@ -58,7 +54,6 @@
                     <li><a href="#"><img src="img/thumbs.svg" alt="Two finger symbol that says click on me to connect to connect with us on Thumbs" /></a></li>
                 </ul>
             </div>
-            <!--</div>--> <!-- hero -->
         </section>
         <section id="work">
             <h3>Working</h3>
@@ -239,5 +234,6 @@
             </form>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

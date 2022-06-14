@@ -20,6 +20,11 @@ body {
   visibility: hidden;
 }
 
+h3 {
+  display: none;
+  visibility: hidden;
+}
+
 section {
   padding: 30px;
   padding-top: 120px;
@@ -207,11 +212,6 @@ h1 {
   color: #172b4d;
   padding-top: 10px;
   padding-bottom: 15px;
-}
-
-#hero h2 {
-  display: none;
-  visibility: hidden;
 }
 
 .work-card h3 {

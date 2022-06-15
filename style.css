@@ -24,9 +24,8 @@ body {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -39,28 +38,42 @@ body {
   justify-content: center;
   border-radius: 12px;
 }
+
 .modal-content hr{
-  border-top: 1px solid #EBECF0;
+  border-top: 1px solid #ebecf0;
   margin: 20px 10px;
 }
 
-.modal-content .action{
+.modal-content .action {
   display: flex;
   justify-content: space-around;
 }
 
-.modal-content button.primary-btn{
-  padding: 12px 22px;
-    border-radius: 8px;
-    font-size: 15px;
-    line-height: 21px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
+button.primary-btn {
+  margin-top: 30px;
+  border: 1.5px double #6070ff;
+  border-radius: 7.5px;
+  background-color: #fff;
+  padding: 10px;
+  color: #396df2;
+  font-size: large;
+  font-weight: 500;
+  cursor: pointer;
 }
-.modal-content button.primary-btn:hover svg path{
-  fill:white;
+
+.modal-content button.primary-btn {
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.modal-content button.primary-btn:hover svg path {
+  fill: white;
 }
 
 /* The Close Button */
@@ -68,7 +81,7 @@ body {
 .close2,
 .close3,
 .close4 {
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -77,7 +90,7 @@ body {
 .close:hover,
 .close:focus,
 .close2:hover,
-.close:focus,
+.close2:focus,
 .close3:hover,
 .close3:focus,
 .close4:hover,
@@ -286,18 +299,6 @@ h3 {
 section {
   padding: 30px;
   padding-top: 120px;
-}
-
-button.primary-btn {
-  margin-top: 30px;
-  border: 1.5px double #6070ff;
-  border-radius: 7.5px;
-  background-color: #fff;
-  padding: 10px;
-  color: #396df2;
-  font-size: large;
-  font-weight: 500;
-  cursor: pointer;
 }
 
 button.primary-btn:hover {

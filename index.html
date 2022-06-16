@@ -456,7 +456,7 @@
                 a feature that you need built or a project that needs coding. 
                 I’d love to help with it 
             </p>
-            <form method="post" action="https://formspree.io/f/xyyooogl">
+            <form onsubmit="return validateContactForm();" name="contactForm" method="post" action="https://formspree.io/f/xyyooogl">
                 <label for="txtname">Name:</label>
                 <input id="txtname" type="text" name="Name" placeholder="your name comes here" required maxlength="30" />
 
@@ -466,12 +466,17 @@
                 <label for="txtmsg">Message:</label>
                 <textarea id="txtmsg" name="Message" placeholder="Write your message here" required maxlength="500"></textarea>
                 <div>
-                    <button class="primary-btn" type="submit">Get In Touch</button>
+                    <button class="primary-btn" type="submit">
+                        Get In Touch
+                    </button>
+
+                    <span class="error"></span>
                     <div></div>
                 </div>
             </form>
         </section>
     </div>
     <script src="script.js"></script>
+    <script src="email.js"></script>
 </body>
 </html>

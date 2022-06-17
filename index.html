@@ -8,7 +8,7 @@
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body onload="getData();">
     <div id="mobNav">
         <img id="mainImg" src="img/Icon - Cancel.svg" alt="cross sign to close the menu"/>
         <ul>
@@ -466,7 +466,7 @@
                 <label for="txtmsg">Message:</label>
                 <textarea id="txtmsg" name="Message" placeholder="Write your message here" required maxlength="500"></textarea>
                 <div>
-                    <button class="primary-btn" type="submit">
+                    <button class="primary-btn" type="submit" onclick="saveData();">
                         Get In Touch
                     </button>
 
@@ -478,5 +478,6 @@
     </div>
     <script src="script.js"></script>
     <script src="email.js"></script>
+    <script src="data.js"></script>
 </body>
 </html>

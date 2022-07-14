@@ -56,6 +56,10 @@ body {
   justify-content: space-around;
 }
 
+.modal-content .action a {
+  text-decoration: none;
+}
+
 button.primary-btn {
   margin-top: 30px;
   border: 1.5px double #6070ff;

@@ -224,6 +224,10 @@ nav a:hover {
   color: #6070ff;
 }
 
+.modal-content .action a {
+  text-decoration: none;
+}
+
 #social a,
 #socialUs a {
   margin-right: 12px;

@@ -1,11 +1,15 @@
 const hBtn = document.getElementById("menubar");
 const nav = document.getElementById("mobNav");
+const mobNavLinks = document.querySelectorAll("#mobNav a");
 function toggleMenu() {
-    hBtn.classList.toggle("open");
+    // hBtn.classList.toggle("open");
     nav.classList.toggle("open");
 }
 hBtn.addEventListener("click", toggleMenu);
-nav.addEventListener("click", toggleMenu);
+//nav.addEventListener("click", toggleMenu);
+for (let i = 0; i < mobNavLinks.length; i++) {
+  mobNavLinks[i].addEventListener("click", toggleMenu);
+}
 
 var span = document.getElementsByClassName("close")[0];
 

@@ -36,6 +36,7 @@ var spanclose2 = document.getElementsByClassName("close2")[0];
 var spanclose3 = document.getElementsByClassName("close3")[0];
 var spanclose4 = document.getElementsByClassName("close4")[0];
 
+/*
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal1.style.display = "block";
@@ -82,3 +83,4 @@ window.onclick = function(event) {
     modal4.style.display = "none";
   }
 }
+*/

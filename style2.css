@@ -488,7 +488,20 @@ button.primary-btn {
         position: relative;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
+
+.close{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    line-height: 20px;
+    border: 1px solid #aaa;
+}
+
 
 #about {
     border-radius: 0px 152px 0px 0px;

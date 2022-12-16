@@ -264,7 +264,7 @@ button.primary-btn {
 
 #work {
     padding-top: 141px;
-    padding-bottom: 141px;
+    padding-bottom: 140px;
     /*background-color: #F7F7F9;*/
     width: 100%
 }
@@ -319,6 +319,7 @@ button.primary-btn {
     padding-bottom: 95px;
     row-gap: 10px;
     transition: all .5s;
+    justify-content: space-between;
 }
 
     .work-card:nth-of-type(even) {

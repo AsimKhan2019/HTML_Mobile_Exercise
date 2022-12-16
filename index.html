@@ -286,7 +286,7 @@
                 </p>
                 <form onsubmit="return validateContactForm()" name="contactForm" method="post" action="https://formspree.io/f/xyyooogl">
                     <input id="txtname" type="text" name="Name" placeholder="Your Name" required maxlength="30"/>
-                    <input id="email" type="email" name="Email" placeholder="You Email" required oninput="validateEmail()"/>
+                    <input id="txtemail" type="email" name="Email" placeholder="You Email" required oninput="validateEmail()"/>
                     <textarea id="txtmsg" name="Message" placeholder="Write your message here" required maxlength="500"></textarea>
                     <div class="btn-section">
                         <button type="submit" class="primary-btn" onclick="saveData();">Get In Touch</button>

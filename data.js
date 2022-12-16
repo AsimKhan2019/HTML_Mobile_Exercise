@@ -12,9 +12,11 @@ function saveData(){
 }
 
 function getData(){
-  let deserializedFormObj = JSON.parse(localStorage.getItem("formData"));
-  
-  document.getElementById("txtname").value = deserializedFormObj.name;
-  document.getElementById("txtemail").value = deserializedFormObj.email;
-  document.getElementById("txtmsg").value = deserializedFormObj.message;
+  if(localStorage.getItem("formData") !=null){
+    let deserializedFormObj = JSON.parse(localStorage.getItem("formData"));
+
+    document.getElementById("txtname").value = deserializedFormObj.name;
+    document.getElementById("txtemail").value = deserializedFormObj.email;
+    document.getElementById("txtmsg").value = deserializedFormObj.message;
+  }
 }

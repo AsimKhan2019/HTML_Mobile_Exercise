@@ -338,9 +338,9 @@ button.primary-btn {
     border-radius: 8px 8px 0px 0px;
     /* border: 1px solid; */
     /*background-image: url(img/portfolio1.png);*/
-    background-size: 110% 100%;
+    background-size: 100% 100%;
     background-position-x: center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -349,7 +349,7 @@ button.primary-btn {
 }
 
 #work2 .work-img {
-    background-image: url(img/awesomesmall.png);
+    background-image: url(img/awesome.png);
 }
 
 #work3 {
@@ -849,8 +849,8 @@ details {
         #mobNav li:first-of-type {
             text-align: right;
             cursor: pointer;
-            margin-right: 18px;
-            margin-top: -19px;
+            margin-right: 12px;
+            margin-top: -14px;
         }
         #mobNav a{
             color:white;

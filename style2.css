@@ -69,6 +69,10 @@ header {
     font-size: 18px;
 }
 
+#logo a{
+  color: #6070ff;
+}
+
 nav {
     display: flex;
 }

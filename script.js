@@ -10,7 +10,32 @@ hBtn.addEventListener("click", toggleMenu);
 for (let i = 0; i < mobNavLinks.length; i++) {
   mobNavLinks[i].addEventListener("click", toggleMenu);
 }
+const workModal = document.querySelector(".work-modal");
+function showWorkModal(workId) {
+    workModal.style.display = "block";
+    fillWorkModal(workId);
 
+}
+
+function closeWorkModal() {
+    workModal.style.display = "none";
+}
+
+window.onclick = function (event) {
+    if (event.target == workModal) 
+        closeWorkModal();
+}
+
+function fillWorkModal(workId) {
+    let work = document.getElementById(workId);
+    workModal.querySelector("h2").innerHTML = work.querySelector("h2").innerHTML;
+    workModal.querySelector(".canopy").innerHTML = work.querySelector(".canopy").innerHTML;
+    workModal.querySelector("p").innerHTML = work.querySelector("p").innerHTML;
+    workModal.querySelector(".work-img").style.backgroundImage = window.getComputedStyle(work.querySelector(".work-img")).backgroundImage;
+    workModal.querySelector(".skills").innerHTML = work.querySelector(".skills").innerHTML;
+}
+
+/*
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
@@ -36,7 +61,7 @@ var spanclose2 = document.getElementsByClassName("close2")[0];
 var spanclose3 = document.getElementsByClassName("close3")[0];
 var spanclose4 = document.getElementsByClassName("close4")[0];
 
-/*
+
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal1.style.display = "block";
